@@ -2826,7 +2826,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		text-align: left;
+		text-align: center;
 		margin: 4em 0;
 	}
 
@@ -2955,7 +2955,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 7.5em 0 5.5em 0 ;
+		padding: 7.5em 0 2.55em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3303,7 +3303,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.wrapper {
-				padding: 6em 3em 4em 3em ;
+				padding: 4em 3em 2em 3em ;
 			}
 
 				.wrapper > .inner {
