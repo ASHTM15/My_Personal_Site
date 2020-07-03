@@ -1,11 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300italic,500,500italic");
 
-/*
-	Reflex by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -118,7 +113,7 @@ input, select, textarea {
 
 	body {
 		background-color: #ffffff;
-		color: #565656;
+		color: #000000;
 	}
 
 	body, input, select, textarea {
@@ -2956,7 +2951,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 7.5em 0 2.55em 0 ;
+		padding: 4em 0 2.55em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -3051,7 +3046,7 @@ input, select, textarea {
 			}
 
 				.wrapper.style3 select option {
-					background: #565656;
+					background: #000000;
 				}
 
 			.wrapper.style3 input[type="text"],
@@ -3088,7 +3083,7 @@ input, select, textarea {
 			.wrapper.style3 input[type="radio"]:checked + label:before {
 				background-color: #ffffff;
 				border-color: #ffffff;
-				color: #565656;
+				color: #000000;
 			}
 
 			.wrapper.style3 ul.alt li {
@@ -3158,7 +3153,7 @@ input, select, textarea {
 				align-items: center;
 				padding: 2em 0;
 				width: auto;
-				text-align: left;
+				text-align: center;
 			}
 
 				.wrapper.featured > .inner > .image {
