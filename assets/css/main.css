@@ -100,6 +100,7 @@ input, select, textarea {
 
 	body {
 		background: #ffffff;
+
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2972,22 +2973,31 @@ input, select, textarea {
 
 			}
 
-		.wrapper.style2 {
-			background-color: #f7f7f7;
-		}
+.wrapper.style2 {
+	background-color: #565656;
+	color: #ffffff;
+	background-image: -moz-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/code.jpg");
+	background-image: -webkit-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/code.jpg");
+	background-image: -ms-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/code.jpg");
+	background-image: linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/code.jpg");
+	background-size: cover, cover;
+	background-position: center, center;
+	background-repeat: repeat, no-repeat;
+	background-attachment: fixed;
+}
 
-		.wrapper.style3 {
-			background-color: #565656;
-			color: #ffffff;
-			background-image: -moz-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
-			background-image: -webkit-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
-			background-image: -ms-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
-			background-image: linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
-			background-size: cover, cover;
-			background-position: center, center;
-			background-repeat: repeat, no-repeat;
-			background-attachment: fixed;
-		}
+.wrapper.style3 {
+	background-color: #565656;
+	color: #ffffff;
+	background-image: -moz-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/ucr.jpg");
+	background-image: -webkit-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/ucr.jpg");
+	background-image: -ms-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/code.jpg");
+	background-image: linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/ucr.jpg");
+	background-size: cover, cover;
+	background-position: center, center;
+	background-repeat: repeat, no-repeat;
+	background-attachment: fixed;
+}
 
 			.wrapper.style3 blockquote {
 				border-left-color: rgba(255, 255, 255, 0.25);
